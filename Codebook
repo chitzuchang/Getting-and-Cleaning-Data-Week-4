@@ -1,0 +1,27 @@
+# Code Book 
+
+Describing the variables in the data set 
+
+In the dataset folder, there are the following files: 
+- README.txt 
+- features_info.txt: displays information about the variables used in features
+- features.txt: list of all features 
+- activity_labels.txt: displays the activity name with their respective label 
+- train/X_train.txt: training set 
+- train/y_train.txt: training labels 
+- test/X_test.txt: Test set 
+- test/y_test.txt: Tes labels 
+
+Furthermore, within the datasets, the variables will be explained below: 
+ The t in front of some of the variables indicate time 
+ E.g. tBodyACC - XYZ , tGravityAcc-XYZ 
+ The f in front of the other variables indicate frequency domain signals 
+ E.g. fBodyAccMag, fBodyGyroMag 
+ Some variables end with "-XYZ", these are used to indicate 3 - axial signals in the X, Y and Z directions 
+ 
+ We used the following variables in order to complete our assignment: 
+ - mean(): mean value 
+ - std(): standard deviation 
+ 
+ There are also variables that indicate the mean/average of the information  
+ E.g. gravityMean, tBodyAccMean 
